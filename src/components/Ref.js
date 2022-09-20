@@ -16,7 +16,7 @@ const Ref = () => {
             <h1>USEREF</h1>
 
             <input value={name} onChange={(e) => setName(e.target.value)} />
-            <p>Olar, {name}</p>
+            <p>Hello, {name}</p>
             <p>renders: {renders.current}</p>
 
 
